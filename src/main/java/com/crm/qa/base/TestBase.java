@@ -22,7 +22,7 @@ public class TestBase {
 
         prop = new Properties();
         try {
-            ip = new FileInputStream("C:\\Users\\mutel\\Downloads\\seleniumProject\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
+            ip = new FileInputStream("D:\\AndroidStudioProjects\\seleniumTestProject\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
             prop.load(ip);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
